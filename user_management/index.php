@@ -45,7 +45,7 @@
 
           $result_set=mysqli_query($connection,$query);
           if(!$result_set){
-            die("Databse query failed");
+            die("Database query failed");
           }
           else{
           header("Location:user1.php");
